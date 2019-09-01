@@ -6,7 +6,7 @@ A Homebridge Dockerfile built on oznu/docker-homebridge with FFmpeg copied from 
 * Pull Docker image and run:
 ```
 docker pull nicholasrobinson/ffmpeg-homebridge
-docker run -it --rm nicholasrobinson/ffmpeg-homebridge ffmpeg-homebridge -buildconf
+docker run -it --rm nicholasrobinson/ffmpeg-homebridge
 ```
 
 * or build and run container from source:
